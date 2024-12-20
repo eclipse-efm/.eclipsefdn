@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-efm') {
+orgs.newOrg('modeling.efm', 'eclipse-efm') {
   settings+: {
     description: "",
     name: "Eclipse Formal Modeling Project",
